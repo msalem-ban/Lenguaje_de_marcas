@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h2>Ejercicios de tablas</h2>
+    <table border = "2px">
+        <caption><b>Listado de Sueldos de Empleados</b></caption>
+        <thead>
+            <tr>
+                <th>Nombre del Empleado</th>
+                <th>Sueldo Bruto (€)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>María González</td>
+                <td>2500</td>
+            </tr>
+            <tr>
+                <td>Juan Pérez</td>
+                <td>2700</td>
+            </tr>
+            <tr>
+                <td>Ana Martínez</td>
+                <td>2400</td>
+            </tr>
+            <tr>
+                <td>Pedro López</td>
+                <td>2600</td>
+            </tr>
+        </tbody> 
+        <tfoot>
+            <tr>
+                <th>Nota</th>
+                <th>Fin de la lista</th>
+            </tr>
+        </tfoot>
+
+
+
+    </table>
+    <hr>
+        <table border = "2px">
+        <caption><b>Listado de Sueldos de Empleados</b></caption>
+        <thead>
+            <tr>
+                <th>Origen</th>
+                <th>Destino</th>
+                <th>Hora de salida</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Madrid</td>
+                <td>Barcelona</td>
+                <td>08:00</td>
+            </tr>
+            <tr>
+                <td>Sevilla</td>
+                <td>Valencia</td>
+                <td>10:30</td>
+            </tr>
+            <tr>
+                <td>Bilbao</td>
+                <td>Zaragoza</td>
+                <td>12:45</td>
+            </tr>
+        </tbody> 
+        <tfoot>
+            <tr>
+                <th>Nota</th>
+                <th></th>
+                <th>Fin de Horarios</th>
+            </tr>
+        </tfoot>
+        </table>
+        <hr>
+        <h2>Tablas combinadas</h2>
+        <table border="1px">
+            <tr>
+                <th rowspan="4">Recursos</th>
+                <th colspan="4">Facturación de los últimos 3 meses</th>
+            </tr>
+            <tr>
+                <td>Disco duro</td>
+                <td>2300</td>
+                <td>27200</td>
+                <td>26000</td>
+            </tr>
+            <tr>
+                <td>CPU</td>
+                <td>73000</td>
+                <td>67300</td>
+                <td>51000</td>
+            </tr>
+            <tr>
+                <td>Monitores</td>
+                <td>53000</td>
+                <td>72000</td>
+                <td>88000</td>
+            </tr>
+        </table>
+        <hr>
+
+        <table border="1px">
+            <caption>Contenido del libro</caption>
+            <tr>
+                <th colspan="3">Facturación de los últimos 3 meses</th>
+            </tr>
+            <tr>
+                <th>Capítulo</th>
+                <th>Título del capítulo</th>
+                <th>Páginas</th>
+                
+            </tr>
+            <tr>
+                <td rowspan="2">1</td>
+                <td>Introducción</td>
+                <td>1-5</td>
+                
+            </tr>
+            <tr>
+                <td>Primeros pasos</td>
+                <td>6-12</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">2</td>
+                <td>Conceptos básicos</td>
+                <td>13-20</td>
+                
+            </tr>
+            <tr>
+                <td>Avanzado</td>
+                <td>21-35</td>
+            </tr>
+            <tr>
+                <td>Ejemplos prácticos</td>
+                <td>36-45</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Conclusiones</td>
+                <td>46-50</td>
+            </tr>
+            
+        </table>
+        <hr>
+
+        <table border="2px">
+            <caption>Horario de Clases por Curso</caption>
+            
+            <tr>
+                <th>Curso</th>
+                <th colspan="2">Horario</th>
+            </tr>
+            <tr>
+                <td rowspan="3">Matemáticas</td>
+                <th>Día</th>
+                <th>Hora</th>
+            </tr>
+            <tr>
+                <td>Lunes</td>
+                <td>9:00 - 10:30</td>   
+            </tr>
+            <tr>
+                <td>Miércoles</td>
+                <td>9:00 - 10:30</td>   
+            </tr>
+            <tr>
+                <td rowspan="3">Física</td>
+                <th>Día</th>
+                <th>Hora</th>
+            </tr>
+            <tr>
+                <td>Martes</td>
+                <td>11:00 - 12:30</td>   
+            </tr>
+            <tr>
+                <td>Jueves</td>
+                <td>11:00 - 12:30</td>   
+            </tr>
+            <tr>
+                <td colspan="3">Total de cursos: 2</td>
+            </tr>
+            </table>
+            <hr>
+            <table border="1px">
+                <tr>
+                <th rowspan="3">España</th>
+                <td>El país digital</td>
+                <td> <a href="http://www.elpais.es">www.elpais.es</a></td>
+            </tr>
+            <tr>
+                <td>ABC</td>
+                <td> <a href="http://www.elpais.es">www.elpais.es</a></td>
+            </tr>
+            <tr>
+                <td>El mundo</td>
+                <td> <a href="http://www.elpais.es">www.elpais.es</a></td>
+            </tr>
+            </table>
+
+</body>
+</html>
